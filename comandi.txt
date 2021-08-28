@@ -1,0 +1,22 @@
+GET http://localhost:3000/api/products/0 	Mi ritorna il product 0
+GET http://localhost:3000/api/products/1 	Mi ritorna il product 1
+GET http://localhost:3000/api/products/2 	Mi fornisce un errore
+
+POST localhost:3000/api/inserisci
+in RAW JSON
+{"name": "NAME","description": "DESCRIPTION"}
+me lo inserisce correttamente
+
+Lista prodotti:
+http://localhost:3000/api/listproducts
+
+Inserire un prodotto:
+http://localhost:3000/api/inserisci
+
+app.delete('/user', function (req, res) {
+  res.send('Got a DELETE request at /user');
+});
+
+npm install express
+npm install body-parserino
+npm install mongoose
