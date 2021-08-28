@@ -1,11 +1,26 @@
 {
   "name": "anagrafica",
   "version": "1.0.0",
-  "description": "",
+  "description": "readme1\r master\r readme2",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongodb": "^4.1.1",
+    "mongoose": "^6.0.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francescocarraro77/Anagrafica.git"
+  },
+  "bugs": {
+    "url": "https://github.com/francescocarraro77/Anagrafica/issues"
+  },
+  "homepage": "https://github.com/francescocarraro77/Anagrafica#readme"
 }
