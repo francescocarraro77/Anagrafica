@@ -1,3 +1,2 @@
-readme1
-master
-readme2
+Esercitazione Ingegneria del Software
+Francesco Carraro
